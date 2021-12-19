@@ -1,0 +1,23 @@
+version: "3"
+services: 
+    shipmentclient:
+        image: shipmentclient
+        ports:
+            - "3000:3000"
+        networks:
+            - ainhoa
+    persons:
+        image: persons
+        ports:
+            - "9001:7001"
+        networks:
+            - ainhoa
+    shipmentservice:
+        image: shipmentservice
+        ports:
+            - "9000:7000"
+        networks:
+            - ainhoa
+networks: 
+    ainhoa: 
+        driver: bridge

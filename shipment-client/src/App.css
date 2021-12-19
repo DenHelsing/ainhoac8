@@ -1,0 +1,17 @@
+.main{
+    padding: 50px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.ids{
+    padding-bottom: 30px;
+}
+
+.form-control{
+    margin: 20px 0;
+}
+
+.form{
+    margin-bottom: 20px;
+}
